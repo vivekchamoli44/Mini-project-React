@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import SearchBox from "./SearchBox.jsx"
+import WeatherApp from "./WeatherApp.jsx"
 function App() {
   let handleClick=()=>{
     console.log("Button Was clicked")
   }
   return (
     <div>
-      <SearchBox></SearchBox>
+      <WeatherApp></WeatherApp>
     </div>
   )
 }
